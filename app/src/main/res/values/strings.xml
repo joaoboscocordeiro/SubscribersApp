@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">SubscribersApp</string>
+    <string name="app_name">Subscribers</string>
 
     <!-- Subscribers Fragment -->
     <string name="subscriber_s_name_hint">Subscriber´s name:</string>
