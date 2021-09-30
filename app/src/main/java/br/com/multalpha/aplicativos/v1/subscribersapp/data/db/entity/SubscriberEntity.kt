@@ -1,4 +1,4 @@
-package br.com.multalpha.aplicativos.v1.subscribersapp.data.entity
+package br.com.multalpha.aplicativos.v1.subscribersapp.data.db.entity
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey

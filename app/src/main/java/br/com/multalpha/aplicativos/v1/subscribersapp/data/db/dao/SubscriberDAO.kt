@@ -1,11 +1,11 @@
-package br.com.multalpha.aplicativos.v1.subscribersapp.data.dao
+package br.com.multalpha.aplicativos.v1.subscribersapp.data.db.dao
 
 import androidx.lifecycle.LiveData
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.Query
 import androidx.room.Update
-import br.com.multalpha.aplicativos.v1.subscribersapp.data.entity.SubscriberEntity
+import br.com.multalpha.aplicativos.v1.subscribersapp.data.db.entity.SubscriberEntity
 
 /**
  * Created by João Bosco on 28/09/2021.

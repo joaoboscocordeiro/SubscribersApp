@@ -9,7 +9,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import br.com.multalpha.aplicativos.v1.subscribersapp.R
 import br.com.multalpha.aplicativos.v1.subscribersapp.data.AppDatabase
-import br.com.multalpha.aplicativos.v1.subscribersapp.data.dao.SubscriberDAO
+import br.com.multalpha.aplicativos.v1.subscribersapp.data.db.dao.SubscriberDAO
 import br.com.multalpha.aplicativos.v1.subscribersapp.extension.hideKeyboard
 import br.com.multalpha.aplicativos.v1.subscribersapp.repository.DatabaseDataSource
 import br.com.multalpha.aplicativos.v1.subscribersapp.repository.SubscriberRepository
