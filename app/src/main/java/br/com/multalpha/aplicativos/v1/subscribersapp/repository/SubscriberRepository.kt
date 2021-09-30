@@ -1,6 +1,5 @@
 package br.com.multalpha.aplicativos.v1.subscribersapp.repository
 
-import androidx.lifecycle.LiveData
 import br.com.multalpha.aplicativos.v1.subscribersapp.data.db.entity.SubscriberEntity
 
 /**
@@ -18,5 +17,5 @@ interface SubscriberRepository {
 
     suspend fun deleAllSubscribers()
 
-    fun getAllSubscribers(): LiveData<List<SubscriberEntity>>
+    suspend fun getAllSubscribers(): List<SubscriberEntity>
 }

@@ -1,6 +1,5 @@
 package br.com.multalpha.aplicativos.v1.subscribersapp.repository
 
-import androidx.lifecycle.LiveData
 import br.com.multalpha.aplicativos.v1.subscribersapp.data.db.dao.SubscriberDAO
 import br.com.multalpha.aplicativos.v1.subscribersapp.data.db.entity.SubscriberEntity
 
@@ -39,7 +38,7 @@ class DatabaseDataSource(
         subscriberDAO.deleteAll()
     }
 
-    override fun getAllSubscribers(): LiveData<List<SubscriberEntity>> {
+    override suspend fun getAllSubscribers(): List<SubscriberEntity> {
         return subscriberDAO.getAll()
     }
 }
