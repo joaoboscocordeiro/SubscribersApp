@@ -65,8 +65,8 @@
         android:textColor="@color/white"
         android:visibility="gone"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@id/button_subscriber"
-        app:layout_constraintStart_toStartOf="@id/button_subscriber"
+        app:layout_constraintEnd_toEndOf="@id/input_layout_email"
+        app:layout_constraintStart_toStartOf="@id/input_layout_email"
         tools:visibility="visible" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
